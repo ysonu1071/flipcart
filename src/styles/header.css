@@ -1,0 +1,104 @@
+.header{
+    width: 100vw;
+    height: 70px;
+    background-color: rgb(42, 148, 224);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header img{
+    width: 150px;
+}
+
+.inputContainer{
+    width: 400px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.inputContainer input{
+    width: 350px;
+    padding: 6px 12px;
+    border: none;
+    outline: none;
+}
+.inputContainer svg{
+    margin-left: 10px;
+    cursor: pointer;
+    color: rgb(42, 148, 224);
+}
+.loginBtn {
+    padding: 5px 15px;
+}
+
+.header select{
+    padding: 5px 15px;
+}
+
+.cartContainer{
+    display: flex;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+#cartCount{
+    position: absolute;
+    top: 5px;
+    border-radius: 50px;
+}
+
+
+/* ....................sign up style ................... */
+
+.loginpage{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(128, 128, 128, 0.753);
+    top: 0px;
+    left: 0px;
+}
+
+.loginBox{
+    width: 500px;
+    height: 350px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    justify-content: center;
+    border-radius: 10px;
+    
+}
+
+.loginBox form div{
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: gray; */
+    margin: 10px 0px;
+}
+
+.loginBox label, .loginBox input{
+    font-size: 18px;
+    padding: 5px 10px;
+}
+
+.loginBox h2{
+    padding: 20px 0px;
+}
+.loginbox-btn{
+    display: flex;
+    justify-content: flex-end !important;
+    gap: 10px;
+    margin: 20px 0px !important;
+}
+.loginbox-btn button{
+    padding: 10px 30px;
+    cursor: pointer;
+}

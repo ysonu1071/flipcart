@@ -1,0 +1,132 @@
+.cartpageBody{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.cartpageBody-Header{
+    width: 80vw;
+    height: 50px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    background-color: whitesmoke;
+}
+
+.cartpageBody-body{
+    width: 80vw;
+    /* height: 80px; */
+    border: 2px solid whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    /* margin: 10px 0px; */
+}
+
+.cartpageBody-body img{
+    width: 50px;
+    height: 70px;
+    /* border: 2px solid black; */
+}
+.cartpageBody-body .title{
+    width: 30vw;
+    height: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   padding: 0px;
+    gap: 30px;
+   
+}
+.cartpageBody-body .title button{
+    width: 150px;
+}
+
+.cartpageBody-body .quantity{
+    width: 18vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+}
+
+.cartpageBody-body .cart-price{
+    width: 10vw;
+    text-align: right;
+}
+
+.cartpageBody-body .quantity button{
+    width: 20px;
+    margin: 0px 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.total-container{
+    width: 80vw;
+    display: flex;
+    justify-content: flex-end;
+    gap: 50px;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.paycontainer{
+    width: 80vw;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px;
+}
+
+.paycontainer button{
+    padding: 10px 30px;
+    font-weight: bold;
+    background-color: rgb(42, 148, 224);
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.paymentPage{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(128, 128, 128, 0.767);
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    
+}
+
+.paymentBox{
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.paymentBox h2{
+    color: green;
+    font-weight: bold;
+    padding: 30px;
+}
+
+.paymentBox button{
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
